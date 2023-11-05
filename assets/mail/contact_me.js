@@ -24,7 +24,7 @@ $(function () {
             var json = {name: name, phone: phone, email: email, message: message}
             $.ajax({
                 // --- CHANGE THIS LINE TO YOUR OWN API GATEWAY  -------- 
-                url:"https://zbdyhvh94b.execute-api.eu-west-1.amazonaws.com/default/katlego_matlala-Lambda-Function",
+                url:"https://ebypj6wxuk.execute-api.eu-west-1.amazonaws.com/default/Katli_Function",
                 // ------------------------------------------------------  
                 type: "POST",
                 data: JSON.stringify(json),
